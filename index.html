@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Квадратне рівняння</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="info">
+			<p>Квадратне рівняння — це рівняння виду ax<sup>2</sup> + bx + c = 0, де коефіціенти a, b и c —
+				довільні числа, причому a ≠ 0.</p>
+		</div>
+
+		<form action="" method="">
+			<input type="number" id="a" placeholder="a"> x<sup>2</sup> +
+			<input type="number" id="b" placeholder="b"> x +
+			<input type="number" id="c" placeholder="c"> = 0
+			<input type="button" onclick="main()" value="Вирішити">
+		</form>
+		<div class="inner hide">
+			<h2>Результат:</h2>
+			<p id="output"></p>
+		</div>
+		<script src="main.js"></script>
+	</div>
+</body>
+
+</html>
